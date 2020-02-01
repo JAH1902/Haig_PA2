@@ -1,32 +1,118 @@
 
-import java.lang.Math;
-
 public class BMICalculator {
+	
+	private int bmi;
+	private double weight;
+	private double height;
 
-	double index(int menu, double weight, double height) {
+	public static void main(String[] args) {
 		
-		double bmi = 0;
 		
-		if (menu == 1) {
-			
-			bmi = (703 * weight) / (Math.pow(height, 2));
-			
-		}
 		
-		else if (menu == 2) {
-			
-			bmi = (weight) / (Math.pow(height, 2));
-			
-			
-		}
 		
-		else {
-			
-			System.out.println("Error: invalid input");
-			
-		}
 		
-		return bmi;
+
+	}
+	
+	public void ReadUserData() {
+		
+		
+		
+		
+		
+		
 		
 	}
+	
+	private void readUnitType() {
+		
+		
+		
+		
+		
+	}
+	
+	private void readMeasurementData() {
+		
+		
+		
+		
+	}
+	
+	private void readMetricData() {
+		
+		
+		
+		
+		
+	}
+	
+	
+	private void readImperialData() {
+		
+		
+		
+		
+	}
+	
+	public void calculateBMI() {
+		
+		
+		
+		
+	}
+	
+	private void calculateBMICategory() {
+		
+		
+		
+		
+	}
+	
+	
+	public void displayBMI() {
+		
+		
+		
+	}
+	
+	public void getWeight() {
+		
+		
+		
+	}
+	
+	private void setWeight() {
+		
+		
+		
+	}
+	
+	public void getHeight() {
+		
+		
+		
+	}
+	
+	private void setHeight() {
+		
+		
+		
+	}
+	
+	public void getBmi() {
+		
+		
+		
+	}
+	
+	
+	public void getBmiCategory() {
+		
+		
+		
+	}
+	
+	
+
 }
